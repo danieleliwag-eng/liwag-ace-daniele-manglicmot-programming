@@ -1,0 +1,16 @@
+body{
+    background-color:violet;
+}
+header{
+    text-align: center;
+}
+.box1{
+    border-style: dashed;
+    display:grid;
+    height: 10ch;
+    width:14ch;
+    grid-template-columns: 7cm;
+  
+
+    
+}

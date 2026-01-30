@@ -1,0 +1,10 @@
+/* self-test of understanding the flexbox container */
+#flexboxcontainer{
+  display: flex;
+  flex-direction: row; /* default value */
+  justify-content: center; /* main axis alignment */
+  align-items: center; /* cross axis alignment */
+  height: 200px;
+  border: 2px solid #000;
+  background-color: #f0f0f0;
+}

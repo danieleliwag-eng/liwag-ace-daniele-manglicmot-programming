@@ -1,0 +1,39 @@
+/* text color */
+#fullname{
+    display: grid;
+    margin: 30px;
+    padding:40px;
+    color:aqua;
+    /* to add the the background by using the display syntax to add the  */
+    background-color: blue ;   
+    /* text alignment : set to us the horizontial alignmnt */
+    /* justfiy :  the text to be stretched horizontally so that both the left and right edges of each line are aligned with the respective margins of its containing element.  */
+    text-align: justify;
+
+}
+#text-align-last{
+    color:blue;
+    text-align-last: left;
+}
+.verticalalignment{
+    /* vertical alignment : To vertically align an inline-level element's box inside its containing line box */
+    margin:40px;
+    height:50px;
+    background-color:antiquewhite;
+    vertical-align: text-bottom;
+}
+
+/* how the text direction work
+ */
+ div.TD{
+    color:blue;
+    /* note: direction is similar to the text align (left and right ) */
+    direction:rtl;
+
+ }
+
+.textdecoration{
+    color:chocolate;
+    /* text-decoration-line */
+    text-decoration-line: line-through;
+}

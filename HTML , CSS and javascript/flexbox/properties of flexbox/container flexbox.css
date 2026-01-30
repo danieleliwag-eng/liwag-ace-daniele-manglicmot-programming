@@ -1,0 +1,9 @@
+/* important : to add the box in each for the attributes  */
+/* error */
+
+.class{
+    display : flex;
+    border-style:none;
+    background-color: aquamarine;
+    
+}

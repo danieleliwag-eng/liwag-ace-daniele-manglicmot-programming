@@ -1,0 +1,28 @@
+body{
+    border-style : dashed;
+    background-image: url("apple wallpaper.jpg");
+    border-width: thick;
+    
+    
+}
+body{
+    border-top-style: dashed ;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    /* broder color : add the color to the outlines of the border */
+    border-color: aquamarine;
+    border-radius: 5px;
+    /* margin vs padding */
+    margin:20px;
+    /* outline : use to stay on the box model */
+    /* does not affect the height and width */
+    /* properties:outline-style
+    outline-color
+    outline-width
+    outline-offset
+    outline */
+    outline-color: aquamarine;
+    outline-offset:initial ;
+
+}
+

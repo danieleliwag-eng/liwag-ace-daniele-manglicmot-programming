@@ -1,0 +1,57 @@
+/* reason :it dosent give show the number in each bixes to represent the siza to make it more specific  */
+/* always make use of the seperation in each boxes before the writing the  */
+/* adjust how the box works out   */
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh ;
+    align-items: flex-end;
+}
+.box1{
+    height:150px;
+    width:150px;
+    
+    border-radius: 15px;
+    text-align: center;
+
+
+
+}
+.box2{
+    height:150px;
+    width:150px;
+    text-align:center;
+    border-radius: 10ch;
+
+
+
+}
+.box3{
+    height: 150px;
+    width:150px;
+    text-align:center;
+    border-radius: 30%;
+
+}
+.box4{
+    height: 150px;
+    width:150px;
+    text-align:center;
+    border-radius: 100cqh;
+}
+#box1{
+    background-color:beige;
+    
+
+
+}
+#box2{
+    background-color:aqua;
+}
+#box3{
+    background-color:brown;
+}
+#box4{
+    background-color:violet;
+
+}

@@ -1,0 +1,40 @@
+body{
+    background-image: url("apple wallpaper.jpg");
+}
+h4{
+    text-align: center;
+    text-align: underline;
+    
+    
+    
+}
+div{
+    width: 500px;
+    height: 500px;    ;
+    /* not stated this moment */
+    margin: 50px auto;
+    background-color: blue;
+    background-image: url("apple logo.png") ;
+    background-repeat: repeat-y;
+    /* display properties */
+    display:inline-block ;
+
+
+    
+ 
+    
+   
+
+    
+     
+}
+h3{
+    text-align:center;
+    /* text-decoration */
+    text-decoration: underline;
+
+}
+#representingtheh5{
+    display:inline-block;
+    text-decoration: double;
+}

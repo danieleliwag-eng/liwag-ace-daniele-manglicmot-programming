@@ -1,0 +1,21 @@
+img{
+    background-image: url("apple wallaper.jpg");
+}
+body,h1,p{
+    border: 1px 
+    
+    
+}
+#section{
+    background-color: aqua;
+    border-style: dotted;
+    border-bottom-left-radius: initial;
+    /* postioning elements */
+   
+    width: 10cm;
+    /* know more about grid layout */
+    /* what does it do with the : module excels at dividing a page into major regions or defining the relationship in terms of size, position, and layering between parts of a control built from HTML primitives */
+    
+ 
+    
+}
