@@ -1,0 +1,34 @@
+body{
+    background-color: aquamarine;
+    
+}
+h5{
+    border-style: groove;
+    border-left: dashed;
+    display:block;
+    display: inline-block ;
+    margin: 5px;
+    
+}
+h4{
+    border-left: dashed;
+    border-style:dashed;
+    display:block;
+    /* padding refer to space between the content adn the defined border of an element */
+    /* auto : it can adjust itself from the width and height */
+    padding:auto;
+
+}
+div,h4,h5{
+    border-style: dashed;
+    border: radius 15px; ;
+    display: block ;
+    display: inline-block;
+    margin:20px;
+    background-color: rebeccapurple;
+
+    
+
+
+
+}

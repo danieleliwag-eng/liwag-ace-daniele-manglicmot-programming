@@ -1,0 +1,84 @@
+h3{
+    text-align: center;
+    color: aquamarine;
+    
+    
+}
+#box1{
+    /* properties of grid layout
+     */
+     display:grid;
+     border-style: solid;
+     width: 4ch;
+     margin: 1cm;
+     grid-template-rows:13ch;
+     
+
+
+}
+#box2{
+    border-style:solid;
+    /* grid-auto-rows:specifies the size of implicitly created grid rows in a CSS Grid layout */
+    grid-auto-rows: 50px;
+    margin-right:30px;
+    margin-left: 30px;
+    padding:40px;
+
+}
+#box3{
+    border-style: dashed;
+    display: grid;
+    padding:56px;
+    grid-auto-rows: 45px;
+    background-color: blue;
+
+
+    
+}
+#box4{
+
+    border-style: dashed;
+    display: grid;
+    padding:56px;
+    grid-auto-rows: 45px;
+    background-color: blue;
+}
+#box5{
+    display: inline;
+    border-style: dashed;
+    background-color: aqua;
+    padding:30px;
+    margin:50px;    
+    
+    /* what does it do with the  */
+    grid-auto-columns: auto;
+}
+
+/* grid-auto-flow
+ */
+ /* meanning : how the auto-placement algorithm works within a CSS Grid layout. */
+ /* methos of using this : unplaced grid items fill available grid */
+#box6{
+    display:inline;
+    border-style: groove;
+    background-color: red;
+    padding: 34px;
+    grid-auto-flow: row;
+}
+/* grid-template-areas */
+/* meanning: pecifies named grid areas, establishing the cells in the grid and assigning them names.*/
+#header7{
+    display:dotted;
+    border-style: groove;
+    
+    background-color: aliceblue;
+}
+/* good tips: grid-template-rows */
+#box8{
+    display:grid;
+    color:aliceblue;
+    border-style:dotted
+
+    
+    
+}

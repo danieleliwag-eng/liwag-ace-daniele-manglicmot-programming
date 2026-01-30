@@ -1,0 +1,58 @@
+body,h1, h2, h3 {
+    color: darkblue; 
+    background-color: aqua;
+}
+/*  grouping defined as to add the selector to duplicate another of the different of the selector */
+dl{  
+    li{background-color:red;} 
+  
+}
+/* always use . to represent the attributes values('') of the open tag  */
+/* example */
+/*  [attribute=value] selector is used to select elements with the specified attribute and the exact value.*/
+.highlight [
+
+]{
+    font-weight: lighter;
+}
+/* descendant selector (always represent to use the first selector and second selector */
+body h1{
+    background-color: aquamarine;
+}
+/* child selector always represent the symbol (>) */
+body > h1{
+    background-color: aqua;
+}
+/* Adjacent selector always to represent the + */
+/* method 1 */
+h1 + h2{    text-align: center;
+
+}
+/* methd 2 */
+.highlight h1 + h2 {
+    text-align: center;
+}
+
+/* general sibling selector always represent the first element before incorporating the ~ character and the second element*/
+/* element ~ element {  
+   /*style properties 
+   }*/  
+
+/* pseudo classes use to represent : */
+
+/* element :element {  
+   /*style properties 
+   }*/  
+ 
+/* pseudo elements define style specific parts of an element   */
+/* expalantion tips :  all the other components in the complex or compound selector */
+/* selector::pseudo-element {
+  property: value;
+} */
+/* self-test */
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+
+
+}

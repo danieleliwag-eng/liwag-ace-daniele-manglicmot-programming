@@ -1,0 +1,19 @@
+.home{
+    display: block;
+    grid-template-columns: 78;
+    /* width:50%;
+    height:50%; */
+    /* another measurement */
+    /* adding 60 % can shortcut to the right of the width   */
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}
+
+/* another example */
+#new_profile{
+    display:flex;
+    height: 80px;;
+    width:60px;
+    background-color: blue;
+}

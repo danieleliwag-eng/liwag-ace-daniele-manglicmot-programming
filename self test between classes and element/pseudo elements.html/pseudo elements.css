@@ -1,0 +1,25 @@
+/* pseudo elements */
+/* meanning : used to style specific parts of an element */
+/* symbol = :: */
+ p::first-line{
+    color:aqua
+    
+   
+}
+h4::first-letter{
+    color: #ff0000;
+    font-size: 200%;
+}
+h4::before{
+    content: url(smiley.gif);
+
+}
+h5::after{
+    content: "this is my property"
+}
+::marker{
+    
+  color: red;
+  font-size: 23px;
+}
+

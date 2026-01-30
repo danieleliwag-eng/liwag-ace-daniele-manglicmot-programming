@@ -1,0 +1,19 @@
+body{
+    background-color:#92a8d1;
+    
+    
+}
+table{
+    color: blueviolet;
+    height: 90;
+    width: 30;
+    background-color: beige;
+    /* by using the property of display */
+    display:inline;
+
+}
+h4{
+    text-align: center;
+    color: aquamarine;
+    text-decoration: wavy;
+}

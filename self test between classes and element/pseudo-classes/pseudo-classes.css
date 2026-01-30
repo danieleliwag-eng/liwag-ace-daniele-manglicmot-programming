@@ -1,0 +1,22 @@
+/* puseudo classes */
+/* meanning : a selector that selects elements that are in a specific state, e.g., they are the first element of their type, or they are being hovered over by the mouse pointer. */
+/* symobol = : */
+a:link{ 
+    color:blue
+
+}
+a:hover{
+    color:azure
+    front-size: 0.875em;
+}
+a:active{
+    color:aquamarine;
+    front-size:1.1em;
+}
+a:visited{
+    color:greenyellow;
+    
+}
+ul,li:link{
+    color: aqua;
+}
