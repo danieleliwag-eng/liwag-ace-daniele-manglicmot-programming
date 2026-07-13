@@ -1,2 +1,2 @@
-# liwag-ace-daniele-manglicmot-programming
-HI , i am software engineering
+Welcome to my journey of software engineering
+
